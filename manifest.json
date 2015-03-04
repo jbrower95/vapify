@@ -1,0 +1,17 @@
+{
+  "name": "Vapify",
+  "version": "1.0",
+  "manifest_version" : 2,
+  "description": "Make every website you visit reak of vaporwave.",
+  "content_scripts": [
+    {
+    	"matches" : ["<all_urls>"],
+      "css": [],
+      "js": ["vapify.js"]
+    }
+  ],
+  "web_accessible_resources" : [
+  	"images/*.png"
+  ]
+
+}
